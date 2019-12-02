@@ -4,39 +4,96 @@
 	<link rel='stylesheet' type='text/css' href='index.css'>
 </head>
 <body>
-
-		<aside>
-				<ul><button onclick=window.location.href="https://www.google.com">Resume</button></ul>
-				<p></p>
-				<ul><button>References</button></ul>
-				<p></p>
-				<ul><button>Hobbies</button></ul>
-			</aside>
+<p id=top></p>
+<aside>
+	<button onclick=window.location.href="https://www.google.com">Resume</button>
+	<p></p>
+	<button>References</button>
+	<p></p>
+	<button>Hobbies</button>
+</aside>
 
 <head1>Robert Whitmer</head1>
-<p title="Nice to meet you!">My name is Bob Whitmer, and this is my page displaying my knowledge so far.
-	I have been teaching myself the basics of OOP and software development for a
-	few months now. I hope you enjoy my work!		
-</p>
+<p></p>
+<para title="Nice to meet you!">Thank you for viewing this page in my portfolio. This is a small display of my knowledge in web development. Thanks for stopping by!</para>
 <hr>
 <h1>Show me what else you've done!</h1>
-<pre title="Wow! This is amazing!"><a href="https://www.github.com/rjwhitmer"; target="_blank">Here</a> is a link to my github account that showcases some of my abilites!
-</pre>
+
+<div>
+	<pre title="Wow! This is amazing!"><a href="https://www.github.com/rjwhitmer"; target="_blank"; text-align:center>Here</a> is a link to my github account that showcases some of my abilites!
+	</pre>
+</div>
+
 <hr>
 
 <h2>This is cool and all, but let's see what you can <u><mark>really</mark></u> do!</h2>
 
 
-<div class=skills>
+<div class=divSkills>
 	<h1>Check it out! Using divs over here!</h1>
-	<p>I will continue to improve my skills and always push to be a better coder.</p>
 </div>
-<svg width="1000" height="250">
-<rect width="150" height="150" fill="teal">
-	<animate attributeName="x" from="0" to="1100" dur="4s" fill="freeze" repeatCount="indefinite"/>
-</rect>
-</svg>
+<div>
+	<svg width="1000" height="250">
+	<rect width="150" height="150" fill="teal">
+		<animate attributeName="x" from="0" to="1100" dur="4s" fill="freeze" repeatCount="indefinite"/>
+	</rect>
+	</svg>
+</div>
+
 <hr>
+
+<div>
+	<h1>Music interest</h1>
+		<p>My current favorite song!</p>
+		<iframe style="float:middle" width="560" height="315" src="https://www.youtube.com/embed/OEj0p6OyrTQ" 
+			frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen>
+		</iframe>
+</div>
+
+<p></p>
+<p></p>
+
+<hr>
+
+<div class="divElement">
+	<h3>Some of my other favorite songs</h3>
+	<ul>
+		<li><a target="_blank" href="https://youtu.be/vjPRP31EQfc">The Wonder Years: "Palm Reader"</a></li>
+		<li><a target="_blank" href="https://youtu.be/gkRY1U-OeIk">Brand New: "Can't get it out"</a></li>
+		<li><a target="_blank" href="https://youtu.be/DdAM8d4RfUk">Oceans Ate Alaska: "Blood Brothers"</a></li>
+	</ul>
+</div>
+
+<hr>
+
+<div class="divElement">
+	<h3>Some interesting facts about me!</h3>
+	<ol type=i>
+		<li>I love to cook!</li>
+		<li>I enjoy playing and watching sports.</li>
+		<li>I was born and raised in Cincinnati, Ohio.</li>
+	</ol>
+</div>	
+
+<hr>
+
+<div>
+	<form>
+	<h3>Should you hire me?</h3>
+		<select>
+			<option>Yes</option>
+			<option>Absolutely</option>
+			<option>Who are you??</option>
+		</select>
+	<hr>
+	<h3>Are you enjoying yourself?</h3>
+		<p><input type="radio" name="fun">I guess so</p>
+		<p><input type="radio" name="fun">Sure!</p>
+		<p><input type="radio" name="fun">Get me out of this site..</p>
+		<p><input type="submit" title="Not currently working"></p>
+	</form>
+</div>
 
 <table>
 	<tr>
@@ -60,6 +117,8 @@
 		<td>Video Games</td>
 	</tr>
 </table>
+
 <head2>Incredible</head2>
+<a href="#top">Back to top</a>
 </body>
 </html>
