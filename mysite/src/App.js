@@ -12,12 +12,6 @@ import WorkHistory from './Components/WorkHistory';
 
 function App() {
   return (
-    // <div className="App">
-    //   <AboutMe />
-    //   <References />
-    //   <Skills />
-    //   <WorkHistory />
-    // </div>
     <Router>
       <div>
         <nav>

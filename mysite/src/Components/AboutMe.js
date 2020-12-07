@@ -1,4 +1,5 @@
 import React from 'react'
+import Images from './Images'
 
 export default function AboutMe(){
     return(
@@ -9,6 +10,7 @@ export default function AboutMe(){
                 Outside of development, I enjoy playing soccer, snowboarding, and beating 
                 anyone who dares challenge me in Mario Kart.
             </p>
+            <Images image='about-me' />
         </>
     )
 }
