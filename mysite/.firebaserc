@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "portfolio-2537e"
+  },
+  "targets": {
+    "portfolio-2537e": {
+      "hosting": {
+        "hire-bob": [
+          "hire-bob"
+        ]
+      }
+    }
+  }
+}
