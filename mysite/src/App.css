@@ -49,8 +49,47 @@ table {
 
 /* End Meyer Reset */
 
-#bob-and-frank{
+h1{
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+#welcome-message {
+  font-size: xx-large;
+  text-align: center;
+}
+
+#nav-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 3rem;
+}
+
+img {
   height: 30rem;
+}
+
+#about-me{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#about-me-text{
+  width: 30rem;
+}
+
+#refer-header > p {
+  font-size: x-large;
+  text-align: center;
+}
+
+#references > p {
+  font-size: large;
+  margin: 3rem;
 }
 
 .App {

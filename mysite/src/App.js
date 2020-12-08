@@ -5,6 +5,7 @@ import {
   Route, 
   Link, 
 } from 'react-router-dom';
+import Welcome from './Components/Welcome';
 import AboutMe from './Components/AboutMe';
 import References from './Components/References';
 import Skills from './Components/Skills';
@@ -14,26 +15,17 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/about-me'>About Me</Link>
-            </li>
-            <li>
-              <Link to='/references'>References</Link>
-            </li>
-            <li>
-              <Link to='/skills'>Skills</Link>
-            </li>
-            <li>
-              <Link to='/work-history'>Work History</Link>
-            </li>
-          </ul>
-        </nav>
+        <div id='nav-div'>
+          <Link to='/'>Home</Link>
+          <Link to='/about-me'>About Me</Link>
+          <Link to='/references'>References</Link>
+          <Link to='/skills'>Skills</Link>
+          <Link to='/work-history'>Work History</Link>
+        </div>
         <Switch>
+          <Route path='/'>
+            <Welcome />
+          </Route>
           <Route path='/about-me'>
             <AboutMe />
           </Route>

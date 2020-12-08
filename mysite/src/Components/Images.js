@@ -9,6 +9,6 @@ export default function Images(props){
     }
 
     return(
-        <img id='bob-and-frank' alt='Bob and son' src={image(props)}></img>
+        <img src={image(props)}></img>
     )
 }
