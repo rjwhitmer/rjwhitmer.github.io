@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function WorkHistory(){
     return (
-        <h1>Work History</h1>
+        <>
+            <div id='work-history-header'>
+                <h1>Work History</h1>
+            </div>
+        </>
     )
 }
