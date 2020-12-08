@@ -5,11 +5,11 @@ import {
   Route, 
   Link, 
 } from 'react-router-dom';
-import Welcome from './Components/Welcome';
 import AboutMe from './Components/AboutMe';
 import References from './Components/References';
 import Skills from './Components/Skills';
 import WorkHistory from './Components/WorkHistory';
+import Welcome from './Components/Welcome'
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Link to='/work-history'>Work History</Link>
         </div>
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
             <Welcome />
           </Route>
           <Route path='/about-me'>
