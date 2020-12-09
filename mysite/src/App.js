@@ -8,7 +8,6 @@ import {
 import AboutMe from './Components/AboutMe';
 import References from './Components/References';
 import Skills from './Components/Skills';
-import WorkHistory from './Components/WorkHistory';
 import Welcome from './Components/Welcome'
 
 function App() {
@@ -19,8 +18,7 @@ function App() {
           <Link to='/'>Home</Link>
           <Link to='/about-me'>About Me</Link>
           <Link to='/references'>References</Link>
-          <Link to='/skills'>Skills</Link>
-          <Link to='/work-history'>Work History</Link>
+          <Link to='/projects'>Projects</Link>
         </div>
         <Switch>
           <Route exact path='/'>
@@ -32,11 +30,8 @@ function App() {
           <Route path='/references'>
             <References />
           </Route>
-          <Route path='/skills'>
+          <Route path='/projects'>
             <Skills />
-          </Route>
-          <Route path='/work-history'>
-            <WorkHistory />
           </Route>
         </Switch>
       </div>

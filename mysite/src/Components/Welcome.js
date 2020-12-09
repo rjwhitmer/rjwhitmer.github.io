@@ -1,9 +1,13 @@
 import React from 'react'
+import ContactForm from './ContactForm'
 
 export default function Welcome() {
     return (
-        <div id='welcome-message'>
-            <p>Welcome to my showcase! Feel free to hang around!</p>
+        <div id='home'>
+            <div id='welcome-message'>
+                <p>Welcome! Feel free to look around!</p>
+            </div>
+            <ContactForm />
         </div>
     )
 }
