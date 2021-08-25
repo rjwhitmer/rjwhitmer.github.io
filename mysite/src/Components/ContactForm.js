@@ -84,11 +84,12 @@ export default class ContactForm extends React.Component {
             Subject: ${subject}
             Message: ${message}
           `);
-    
+          this.toastifySuccess();
           this.resetForm();
         } else {
           // Handle form validation failure
           console.error('FORM INVALID - DISPLAY ERROR MESSAGE');
+          this.toastifyFail();
         }
       };
     
